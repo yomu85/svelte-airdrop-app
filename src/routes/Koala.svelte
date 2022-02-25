@@ -55,7 +55,7 @@
             on:click={ event => {
               push('/about')
             }}>
-            Matic Mainnet 추가
+            Polygon Mainnet
           </button>
         </div>
         <div>

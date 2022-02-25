@@ -5,9 +5,9 @@
   console.log(qs.parse($querystring))
 
   $: query = qs.parse($querystring)
-  $: title = query.title || '폴리곤 RPC 네트워크 정보'
-  $: name = query.name || 'Matic Mainnet'
-  $: rpcurl = query.rpcurl || 'https://rpc-mainnet.matic.network'
+  $: title = query.title || 'Polygon Mainnet 정보'
+  $: name = query.name || 'Polygon Mainnet'
+  $: rpcurl = query.rpcurl || 'https://polygon-rpc.com'
   $: chainid = query.chainid || '137'
   $: simbol = query.simbol || 'MATIC'
   $: searchurl = query.searchurl || 'https://polygonscan.com'
