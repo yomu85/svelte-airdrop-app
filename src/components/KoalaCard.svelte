@@ -57,6 +57,10 @@
     overflow: hidden;
     cursor: pointer;
     position: relative;
+    @media #{$mobile} {
+      width: 47%;
+      margin: 1.5%;
+    }
     &:hover {
       &::after {
         content: "";

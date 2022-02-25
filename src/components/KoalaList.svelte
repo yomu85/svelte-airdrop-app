@@ -34,6 +34,9 @@
     background-color: $color--area;
     border-radius: 4px;
     text-align: center;
+    @media #{$mobile} {
+      padding:0;
+    }
     &.no-result {
       padding: 70px 0;
     }
