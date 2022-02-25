@@ -5,7 +5,7 @@
   <div class="description">
     <ul>
       <li>#1~#500: 2022년 2월 22일 판매가 종료되었습니다.</li>
-      <li>#501~#722: <span class="primary">에어드랍 진행 중</span> 입니다.</li>
+      <li>#501~#722: <a href="https://open.kakao.com/o/gMAFhdS" target="_blank">ICON 커뮤니티에서</a> <span class="primary">에어드랍 진행 중</span> 입니다.</li>
       <li>하단 검색을 통해 <span class="primary">contract 주소, 수집품 ID</span>를 복사하여 메타마스크 지갑에 NFT를 추가하세요.</li>
     </ul>
   </div>
@@ -31,6 +31,9 @@
         color: $color--white;
         font-family: 'Roboto', 'Pretendard', sans-serif;
         line-height: 1.6;
+        a {
+          color: $color--white;
+        }
         .primary {
           color: $color--primary;
         }
